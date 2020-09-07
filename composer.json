@@ -1,0 +1,26 @@
+{
+    "name": "rayswoole/memcache-pool",
+    "description": "基于swoole + easyswoole/memcache实现的memcache连接池",
+    "keywords": [
+        "rayswoole",
+        "memcache"
+    ],      
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "haoguangyun",
+            "email": "admin@haoguangyun.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "ext-swoole": ">=4.4.4",
+        "easyswoole/memcache": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "rayswoole\\memcache\\": "src"
+        },
+        "files": []
+    }
+}
